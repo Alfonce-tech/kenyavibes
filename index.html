@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <button onclick="navigateTo('about.html')">About</button>
+        <button onclick="navigateTo('blogs.html')">Blogs</button>
+        <button onclick="navigateTo('skills.html')">Skills</button>
+        <button onclick="navigateTo('contact.html')">Contact</button>
+        <button onclick="navigateTo('cta.html')">Call to Action</button>
+    </div>
+    <div class="content">
+        <div class="left-section">
+            <img src="placeholder.jpg" alt="My Picture" class="profile-pic">
+        </div>
+        <div class="right-section">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I am [Your Name]. I'm passionate about [Brief Description of Yourself]. Explore my portfolio to learn more about my skills, projects, and how to get in touch.</p>
+        </div>
+    </div>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+</html>
